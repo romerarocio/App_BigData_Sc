@@ -1,0 +1,15 @@
+project/
+│
+├── config/
+│   ├── supermercado_a.json
+│   ├── supermercado_b.json
+│   └── ...
+│
+├── data/                # Para guardar plantillas de URL, resultados, caché…
+│   └── url_templates.json
+│
+└── src/
+    ├── scraper.py       # Lógica de scraping genérica
+    ├── config_loader.py # Carga y valida configs de supermercados
+    ├── ui.py            # Interfaz (CLI o Streamlit)
+    └── utils.py         # Funciones comunes (regex, JSON paths,…)

@@ -1,0 +1,37 @@
+{
+  "carrefour": {
+    "sucursales": {
+      "1": "CABA",
+      "2": "La Plata"
+    },
+    "categorias": {
+      "1": {
+        "nombre": "Almacén",
+        "patron": "https://www.carrefour.com.ar/almacen?page={page}"
+      }
+    }
+  },
+  "vea": {
+    "sucursales": {
+      "1": "Mendoza",
+      "2": "Godoy Cruz"
+    },
+    "categorias": {
+      "1": {
+        "nombre": "Almacén",
+        "patron": "https://www.vea.com.ar/almacen?page={page}"
+      }
+    }
+  },
+  "masonline": {
+    "sucursales": {
+      "1": "Tienda Online"
+    },
+    "categorias": {
+      "1": {
+        "nombre": "Almacén",
+        "patron": "https://www.masonline.com.ar/3454?map=productClusterIds&page={page}"
+      }
+    }
+  }
+}
